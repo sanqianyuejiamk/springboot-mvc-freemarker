@@ -28,4 +28,10 @@ public class CommonController {
         model.addAttribute("qingcai","b11");
         return "views/index";
     }
+
+    @RequestMapping("/rate2")
+    public String product2(Model model){
+        log.info("freeMarkerController index......");
+        return "index2";
+    }
 }

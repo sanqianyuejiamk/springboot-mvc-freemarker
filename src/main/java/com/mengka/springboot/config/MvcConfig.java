@@ -43,7 +43,7 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         Properties settings = new Properties();
         settings.setProperty("tag_syntax", "auto_detect");
         freemarkerConfig.setFreemarkerSettings(settings);
-        freemarkerConfig.setTemplateLoaderPath("classpath:/templates/");
+        freemarkerConfig.setTemplateLoaderPath("templates");
         freemarkerConfig.setDefaultEncoding("UTF-8");
 
         Map<String, Object> freemarkerVariables = new HashMap<String, Object>();

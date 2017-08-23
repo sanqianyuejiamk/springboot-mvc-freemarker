@@ -11,7 +11,6 @@
     <title>hello schedule</title>
 </head>
 <body>
-${mengka}
 111111
 </body>
 </html>
